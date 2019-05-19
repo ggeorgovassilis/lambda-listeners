@@ -85,13 +85,13 @@ step. And now imagine that observer is a proxy which invokes the same method on 
 
 
 ```java
-	proxyObserver.method(arg1, arg2, arg3);//{
-	
-		observer1.method(arg1, arg2, arg3);
-		observer2.method(arg1, arg2, arg3);
-		observer3.method(arg1, arg2, arg3);
+proxyObserver.method(arg1, arg2, arg3);//{
 
-	//}
+	observer1.method(arg1, arg2, arg3);
+	observer2.method(arg1, arg2, arg3);
+	observer3.method(arg1, arg2, arg3);
+
+//}
 	...
 ```
 
